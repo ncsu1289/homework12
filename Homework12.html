@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en-us"
+
+
+
+<head>
+	<meta charset="UTF-8">
+	<title> Homework 12 </title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<br>
+<body>
+	<nav class="navbar">
+		<ul>
+			<l1 class="logo"><a href="#">Latitude</a>
+			</l1>
+		  	<li class="dropdown"> <a href="#"> Plot </a>	
+				<div class="dropdown-content">
+					<a class="dropdown-item" href="#">Temperature</a>
+					<a class="dropdown-item" href="#">Humidity</a>
+					<a class="dropdown-item" href="#">Cloudiness</a>
+					<a class="dropdown-item" href="#">Wind_Speed</a>
+				</div>
+			</li>
+			<li> 
+				<a href="#">Comparison</a>
+			</li>
+			<li>
+				<a href="#">Data</a>
+			</li>
+		</ul>
+	</nav>
+
+<br>
+
+	<main class="container">
+		<div class="box-summary">
+			<h1> Summary: Latitude vs. X</h1>
+				<hr>
+					<img src="City_Latitude_v_Temp_Seaborn.png" width="20%" style="float: left">
+					<p> The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+					</p>
+					<br>
+					<p> After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.  Factors we looked at included: temperature, cloudiness, wind speed and humidity.  This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+					</p>
+
+		</div>
+				<br>
+			<!--<div class="container">-->
+		<div class="main2">
+			<h1> Visualizations </h1>
+				<hr>
+					<figure class="box">
+						<img src="City_Latitude_v_Temp_Seaborn.png" >
+					</figure>
+
+					<figure class="box">
+						<img src="City_Latitude_v_Humidity_Seaborn.png">
+					</figure>
+
+					<figure class='box'>
+						<img src="City_Latitude_v_Cloudiness_Seaborn.png">
+					</figure>
+
+					<figure class='box'>
+						<img src="City_Latitude_v_Wind_Speed_Seaborn.png">	
+					</figure>
+
+		</div>
+
+	</main>
+	
+
+</body>
+
+</html>
